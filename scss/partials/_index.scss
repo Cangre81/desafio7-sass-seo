@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Palette+Mosaic&display=swap');
+@import "../variables/variables";
+@import "../sass2/mixins";
+
+header{
+    @include header-gral
+}
+
+body{
+    .titulos-index{
+        text-align: center;
+        .h1-index{
+            font-family: $fuenteMarca;
+            text-align: center;
+            margin: 15px;
+        }
+        .h2-index{
+            font-family: $fuenteGeneral; color: $colorGris;
+            text-align: center;
+            margin-bottom: 5px;
+            padding-bottom: 30px;
+       }
+    }
+    .img-index{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    
+}
+
+
+footer{
+    @include footer-gral
+}

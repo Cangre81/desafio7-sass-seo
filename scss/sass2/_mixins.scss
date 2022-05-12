@@ -1,0 +1,61 @@
+@import "../variables/variables";
+
+@mixin header-gral {
+    background-image:url(../assets/fondopantalla1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .header-nav-logo{
+        inline-size: 2%;
+        margin: 10px;
+        margin-top: 15px;
+        padding-left: 10px;
+    }
+    .a-header{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    nav{
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            padding: 3px;
+            margin: 3px;
+            &:hover{
+                color: $colorFooter;
+            }
+        }
+    }
+    
+}
+
+@mixin footer-gral {
+    display:flex;
+    flex-direction:column;
+    text-align: center; 
+    color: black;
+    background-color: $colorFooter;
+    margin-top: 10px;   
+
+    p{
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    
+    .fa-brands{
+        color: black;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        font-size: 25px;
+        &:hover{
+            color: $colorHover;
+        } 
+    }
+
+}
