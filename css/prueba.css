@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Palette+Mosaic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Palette+Mosaic&display=swap");
+.header-footer, header, footer {
+  font-size: large; }
+
 header {
   background-image: url(../assets/fondopantalla1.jpeg);
   background-repeat: no-repeat;
@@ -122,6 +125,12 @@ footer {
     font-size: 25px; }
     footer .fa-brands:hover {
       color: white; }
+
+.texto-nosotros {
+  background-color: wheat; }
+
+.header-footer, header, footer {
+  font-size: large; }
 
 * {
   margin: 0;

@@ -1,0 +1,9 @@
+@import "../variables/variables";
+
+$fondo:(
+    color: $colorFooter,
+);
+
+.texto-nosotros{
+    background-color: map-get($fondo, color);
+}

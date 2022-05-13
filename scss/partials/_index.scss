@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Palette+Mosaic&display=swap');
 @import "../variables/variables";
 @import "../sass2/mixins";
+@import "../sass2/extend";
 
 header{
-    @include header-gral
+    @include header-gral;
+    @extend .header-footer;
+
 }
 
 body{
@@ -32,5 +35,6 @@ body{
 
 
 footer{
-    @include footer-gral
+    @include footer-gral;
+    @extend .header-footer;
 }
